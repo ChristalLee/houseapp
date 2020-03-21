@@ -1,0 +1,28 @@
+.chatBox{
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    background-color: rgba(220, 203, 247, 0.699);
+}
+.textCenter{
+    text-align: center;
+}
+.topImg{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+.imgBox{
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;                
+    }
+}
+}

@@ -1,0 +1,20 @@
+.phoneCode{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .codebtn{
+        position: relative;
+        right: 0;
+    }
+}
+.single{
+    color:#108ee9; 
+}
+.iptBox input{
+    border: 0;
+    padding-left: 14px;
+    font-size: 18px;
+    color: #ccc;
+    width: 100%;
+    height: 30px;
+}

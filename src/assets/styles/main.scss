@@ -1,0 +1,73 @@
+.seachbar{
+    height: 50px;
+    background-color: thistle;
+    a{
+        color: #fff;
+        padding-left: 5px;
+    }
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    .am-search{
+        width: 280px;  
+        background-color: thistle;   
+        .am-search-input{
+            width: 200rpx;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+    }
+}
+.classify{
+    .box{
+        width: 100%;
+        .imgBox{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: lightblue;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+.relative{
+    background: #eee;
+    .box{
+        width: 100%;
+        background: #fff;
+        padding-bottom: 10px;
+        img{
+            width: 40px;
+            height: 40px;
+            padding: 10px 0;
+        }
+    }
+}
+.like{
+    padding-left: 10px;
+    .likeBox{
+        img{
+            width: 150px;
+            height: 180px;
+        }
+        .title{
+            width: 220px;
+            display: flex;
+            justify-content: space-between;
+            .htips{
+                color: tomato;
+            }
+        }
+        .text{
+            span{
+                color: #ccc;
+                padding-right: 10px;
+            }
+        }
+    }
+    margin-bottom: 50px;
+}
