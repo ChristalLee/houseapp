@@ -1,19 +1,22 @@
 .seachbar{
+    width: 100%;
     height: 50px;
-    background-color: thistle;
-    a{
+    padding-left: 5px;
+    background-color: lightsteelblue;
+    span{
         color: #fff;
-        padding-left: 5px;
+        font-size: 0.95rem;
     }
         img{
-            width: 30px;
-            height: 30px;
+            width: 28px;
+            height: 28px;
+            padding: 0;
         }
     .am-search{
-        width: 280px;  
-        background-color: thistle;   
+        width: 240px;  
+        background-color: lightsteelblue;   
         .am-search-input{
-            width: 200rpx;
+            width: 180rpx;
             border: 1px solid #ccc;
             border-radius: 10px;
         }
@@ -23,10 +26,10 @@
     .box{
         width: 100%;
         .imgBox{
+            margin: 10px;
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background-color: lightblue;
             img{
                 width: 40px;
                 height: 40px;
@@ -40,24 +43,32 @@
         width: 100%;
         background: #fff;
         padding-bottom: 10px;
+        .housetext{
+            color: green;
+            font-size: 18px;
+            padding: 0 10px;
+            font-weight: bold;
+        }
         img{
             width: 40px;
-            height: 40px;
+            height: 60px;
             padding: 10px 0;
         }
     }
 }
+// 猜我喜欢
 .like{
     padding-left: 10px;
     .likeBox{
         img{
-            width: 150px;
+            width: 100%;
             height: 180px;
         }
         .title{
             width: 220px;
             display: flex;
             justify-content: space-between;
+            padding-right: 10px;
             .htips{
                 color: tomato;
             }
@@ -69,5 +80,4 @@
             }
         }
     }
-    margin-bottom: 50px;
 }

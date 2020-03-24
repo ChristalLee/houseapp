@@ -1,9 +1,11 @@
 .topBox{
-    background-color: rgba(214, 181, 236, 0.356);   
-    height: 200px;   
+    background-color: rgba(181, 191, 236, 0.356);   
+    height: 180px;   
     .top{
         width: 100%;
         padding: 10px 0 10px 10px;
+        display: flex;
+        justify-content: space-around;
         .imgBox{
             width: 60px;
             height: 60px;
@@ -11,7 +13,8 @@
             img{
                 width: 60px;
                 height: 60px;
-                border-radius: 50%;                
+                border-radius: 50%; 
+                vertical-align: middle;               
             }
         }
         .set{
@@ -25,6 +28,14 @@
     .box{
         width: 120px;
         text-align: center;
+        .textBox{
+            img{
+                width: 20px;
+                height: 20px;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+        }
     }
     .box:nth-child(2){
         border-right: 1px solid #ccc;
@@ -42,9 +53,10 @@
         padding: 0 10px;
         border-bottom: 1px solid #ccc;
         img{
-            width: 30px;
-            height: 30px;
+            width: 20px;
+            height: 20px;
             vertical-align: middle;
+            margin-right: 5px;
         }
     }
 }

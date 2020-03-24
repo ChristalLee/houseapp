@@ -7,8 +7,9 @@ export default class My extends Component {
     render() {
         return (
             <div>
+                {/* 顶部盒子 */}
                 <div className="topBox">
-                    <Flex className="top">
+                    <div className="top">
                         <div className="imgBox">
                             <img src={require("../../assets/imgs/banner01.jpg")} alt="" />
                         </div>
@@ -17,43 +18,48 @@ export default class My extends Component {
                             <p>可以与经纪人发起聊天</p>
                         </div>
                         <p className='set'>
-                            <img src={require('../../assets/imgs/re3.png')} alt="" />
+                            <img src={require('../../assets/imgs/dy (4).png')} alt="" />
                         </p>
-                    </Flex>
+                    </div>
                     <Flex justify="center">
                         <div className='box'>
                             <p>0</p>
-                            <p>钱包</p>
+                            <p className='textBox'>
+                                <img src={require('../../assets/imgs/dy (3).png')} alt=""/> 钱包
+                            </p>
                         </div>
                         <div className='box'>
                             <p>0</p>
-                            <p>优惠</p>
+                            <p className='textBox'>
+                            <img src={require('../../assets/imgs/dy (5).png')} alt=""/>优惠
+                            </p>
                         </div>
                         <div className='box'>
                             <p>0</p>
-                            <p>积分</p>
+                            <p className='textBox'><img src={require('../../assets/imgs/dy (2).png')} alt=""/>积分</p>
                         </div>
                     </Flex>
                 </div>
+                {/* 内容 */}
                 <div className="content">
                     <WhiteSpace />
                     <div className='singleBox'>
                         <p>
-                            <img src={require('../../assets/imgs/re1.png')} alt="" />
+                            <img src={require('../../assets/imgs/dy (2).png')} alt="" />
                             <span>我的积分</span>
                         </p>
                         <p>></p>
                     </div>
                     <div className='singleBox'>
                         <p>
-                            <img src={require('../../assets/imgs/re1.png')} alt="" />
+                            <img src={require('../../assets/imgs/dy (1).png')} alt="" />
                             <span>我的订阅</span>
                         </p>
                         <p>></p>
                     </div>
                     <div className='singleBox'>
                         <p>
-                            <img src={require('../../assets/imgs/re1.png')} alt="" />
+                            <img src={require('../../assets/imgs/icon_chat.png')} alt="" />
                             <span>微聊联系人</span>
                         </p>
                         <p>></p>
@@ -61,14 +67,14 @@ export default class My extends Component {
                     <WhiteSpace />
                     <div className='singleBox'>
                         <p>
-                            <img src={require('../../assets/imgs/re1.png')} alt="" />
+                            <img src={require('../../assets/imgs/re2.png')} alt="" />
                             <span>房贷计算器</span>
                         </p>
                         <p>></p>
                     </div>
                     <div className='singleBox'>
                         <p>
-                            <img src={require('../../assets/imgs/re1.png')} alt="" />
+                            <img src={require('../../assets/imgs/icon_main.png')} alt="" />
                             <span>我的房子</span>
                         </p>
                         <p>></p>
@@ -76,14 +82,14 @@ export default class My extends Component {
                     <WhiteSpace />
                     <div className='singleBox'>
                         <p>
-                            <img src={require('../../assets/imgs/re1.png')} alt="" />
+                            <img src={require('../../assets/imgs/icon_history.png')} alt="" />
                             <span>我的看房记录</span>
                         </p>
                         <p>></p>
                     </div>
                     <div className='singleBox'>
                         <p>
-                            <img src={require('../../assets/imgs/re1.png')} alt="" />
+                            <img src={require('../../assets/imgs/re2.png')} alt="" />
                             <span>我的问答</span>
                         </p>
                         <p>></p>
@@ -91,7 +97,7 @@ export default class My extends Component {
                     <WhiteSpace />
                     <div className='singleBox'>
                         <p>
-                            <img src={require('../../assets/imgs/re1.png')} alt="" />
+                            <img src={require('../../assets/imgs/dy (4).png')} alt="" />
                             <span>设置</span>
                         </p>
                         <p>></p>

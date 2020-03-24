@@ -1,12 +1,10 @@
 .chatBox{
     width: 300px;
     height: 300px;
-    position:absolute;
+    position: fixed;;
     top:50%;
-    left:50%;
     margin-top: -150px;
-    margin-left: -150px;
-    background-color: rgba(220, 203, 247, 0.699);
+    padding: 20px;
 }
 .textCenter{
     text-align: center;

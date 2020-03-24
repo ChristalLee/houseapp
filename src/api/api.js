@@ -1,10 +1,10 @@
 import axios from 'axios'
 import qs from 'qs'
 
+export var IP='http://192.168.1.6:80'
 // 创建一个请求对象
-
 let req=axios.create({
-    baseURL:'http://192.168.1.6:80',
+    baseURL:IP,
     timeout:10000
 })
 
@@ -20,8 +20,9 @@ export function getcode(){
 }
 
 //登录
-export function loginto(data){
-    return req.post('/login.php',qs.stringify(data))
+// acc:用户名 pwd:密码
+export function loginto(acc,pwd){
+    return req.post('/login.php',qs.stringify({acc,pwd}))
 } 
 
 // 猜我喜欢
